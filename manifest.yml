@@ -1,0 +1,6 @@
+applications:
+- name: analyze-your-tone
+  command: node app.js
+  buildpack: sdk-for-nodejs
+  path: .
+  memory: 256m
